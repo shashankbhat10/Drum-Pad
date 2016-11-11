@@ -102,6 +102,19 @@ body {
     border: 1px solid red;
 }
 
+.light.play{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: black;
+    background: radial-gradient(circle, #61ff5b 0%, #023300 100%);
+    box-shadow: 0px 0px 20px #61ff5b;
+    border: 1px solid #61ff5b;
+}
+
 
 .grid-row{
     display: block;
@@ -148,6 +161,6 @@ body {
 .grid-cell:active{
     transform: scale(0.98);
 }
-.grid-cell.active{
-    transform: scale(0.98);
+.active{
+    transform: scale(0.9);
 }
