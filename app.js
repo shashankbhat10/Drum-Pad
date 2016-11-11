@@ -92,7 +92,6 @@ $(document).ready(function(){
         var key = String.fromCharCode(event.which);
         switch (key) {
             case "Q": playClap();
-                     $(".clap").removeClass("active");
                 break;
             case "W": playClave();
                 break;
@@ -134,7 +133,6 @@ $(document).ready(function(){
 
 
 function playClap(){
-    $(".clap").addClass("active");
     clap.load();
     clap.play();
 }
